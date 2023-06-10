@@ -1,0 +1,40 @@
+body {
+    margin: 0; 
+}
+
+nav {
+    min-height: 10vh;
+    background: rgb(229, 146, 44);
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin: 1.0em;
+}
+
+nav ul li {
+    float: right;
+    margin-left: 0.5em;
+}
+
+nav ul a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(238, 234, 233); 
+}
+
+.jumbotron {
+    text-align: center; 
+    min-height: 90vh;
+    background-image: url("/images/burger.jpg") ;
+    background-size: cover;
+    padding: 10vh;
+}
+
+.first-paragraph {
+    font-size: 1.2em;
+}
+
+
